@@ -1,0 +1,20 @@
+{
+  "name": "prueba-de-desarrollo-cobrando-bpo",
+  "version": "1.0.0",
+  "description": "prueba ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server",
+    "dev": "nodemon ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
