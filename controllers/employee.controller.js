@@ -71,7 +71,7 @@ const deleteEmployee = async(req ,res)=>{
     if (!employee) {
       return res.status(404).json({ message: 'Empleado no encontrado' });
     }
-
+    //metodo no recomendable
     await employee.destroy();
     return res.status(204).send();
   } catch (error) {
